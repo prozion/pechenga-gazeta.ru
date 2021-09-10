@@ -1,0 +1,133 @@
+a {color: #00a;text-decoration: none;}
+
+body {margin-left: 0px; margin-top: 0px;}
+
+.br {clear: both;}
+
+/* Top part */
+
+.acMenuBar {width: 100%; height: 16px; padding: 2px 0px 0px 0px; font: normal 8pt Verdana; color: #000; text-align: left; background-color: #d7d3cb;border-width: 2px;}
+.acMenuItem {position: absolute; top: 16px;}
+.acMenuBar a { font: normal 8pt Arial; color: #000; margin: 0px 5px 0px 0px; padding: 1px 10px 1px 10px; border: 1px solid; border-color: #d7d3cb;}
+.acMenuBar a:hover { border: 1px solid; border-color: #fff #666 #666 #fff;text-decoration: none;}
+.acMenuBar .noButton a  { background-color: #000; border-color: #000;}
+.acMenuBar .noButton a:hover  { background-color: #000; border-color: #000;}
+.acMenuBar td div { float: left; margin: 0px 5px 0px 5px; font-weight: bold;padding: 2px 0px 3px 0px; font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt;}
+.acMenuBar td div.News { color: #fff; background-color: #999; padding: 2px 20px 3px 20px;}
+.acMenuBar td div.NewsActive { color: #fff; background-color: #333; padding: 2px 20px 3px 20px;}
+.acMenuBar td div.Events { color: #fff; background-color: #999; padding: 2px 20px 3px 20px;}
+
+.acPopupMenu { position: absolute; top: 30px; width: 150px; padding: 3px 0px 4px 5px; background-color: #d7d3cb; border: 1px solid #888; border-color: #fff #888 #888 #fff; display: none; z-index: 50;}
+.acPopupMenu a { width: 100%; padding: 1px 10px; font: normal 8pt Arial; color: #000; cursor: default;}
+.acPopupMenu a:hover  { background-color: #006; color: #fff;}
+
+
+/* Down part */
+
+.Alert { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;color: #a33; text-align: left; margin: 0px 0px 3px 5px;}
+
+.SessionName { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #333333; text-align: left; margin: 50px 0px 3px 5px;}
+
+.SectionHeader {font: bold 16px Arial; color: #444;}
+
+.EditHeader {font: bold 16px Arial; color: #773333; margin: 30px 0px 20px 30px;}
+
+#acInsertedTablePlaceholder {}
+
+#acMainPanel { width: 900px; padding: 5px 10px 10px 10px;  margin-left: 10px;font: normal 8pt  Verdana, sans-serif; color: #000; background: #d7d3cb; border: 2px solid #ddd; border-color: #fff #999 #999 #fff;	
+}
+
+#acMainPanel span {font: normal 8pt  Verdana}
+
+#acMainPanel a:hover {color: #e00; text-decoration: none;}
+
+#acMainPanel #header1  {clear: both; margin-top: 5px;}
+#acMainPanel #header1 #title {float: left; color: #000; font-weight: bold; margin-right: 10px;}
+#acMainPanel #header1 #userdata {float: left; margin-right: 10px; margin-left: 50px;}
+
+#acMainPanel .button {float: left; margin-right: 10px; display: inline; background: #d7d3cb; border: 1px solid #fff; border-color: #fff #333 #333 #fff; font: normal 8pt  Verdana; color: #000; padding: 2px 5px;}
+#acMainPanel .button a { cursor: default; color: #000;}
+
+#acMainPanel #header2 {clear: both; margin-top: 20px;}
+*html #acMainPanel #header2 {clear: both; padding-top: 20px;}
+#acMainPanel #header2 .form {float: left;}
+#acMainPanel #header2 .form .label {vertical-align: top;}
+#acMainPanel #header2 .form select {width: 80px;}
+#acMainPanel #header2 .form option {padding: 0; margin: 0px; font: normal 8pt  Verdana, sans-serif;}
+
+#acMainPanel #body {clear: both; margin-top: 10px;}
+*html #acMainPanel #body {clear: both; padding-top: 5px;}
+	
+#acMainPanel #body #dataTable {border: 0; border-color: #333 #999; padding: 0px;}
+#acMainPanel #body #dataTable .th {float: left; border: 1px solid #666; padding: 1px 5px; border-width: 1px 0px 1px 1px; background: #d7d3cb; text-align: center; height:30px; }
+#acMainPanel .th a, #acMainPanel .th-last a {color: #000; text-decoration: none;}
+#acMainPanel .th a:hover, #acMainPanel .th-last a:hover {color: #333;}
+#acMainPanel #body #dataTable .th-last {float: left; border: 1px solid #666; padding: 1px 5px; border-width: 1px 1px 1px 1px; background: #d7d3cb; text-align: center; height: 30px;}
+#acMainPanel #body #dataTable .td {float: left; border: 1px solid #666; padding: 2px 5px; border-width: 0px 0px 1px 1px; background: #fff;}
+#acMainPanel #body #dataTable .tdfh {float: left; border: 1px solid #666; padding: 2px 5px; border-width: 0px 0px 1px 1px; background: #fff;height: 75;}
+#acMainPanel #body #dataTable .tdfh img {width: 100px; height: 73px; border: 0;}
+*html #acMainPanel #body #dataTable .tdfh {float: left; border: 1px solid #666; padding: 0px 5px; border-width: 0px 0px 1px 1px; background: #fff; height: 75;}
+*html #acMainPanel #body #dataTable .tdfh img {height: 65px;}   
+#acMainPanel #body #dataTable .td-last {float: left; border: 1px solid #666; padding: 2px 5px; border-width: 0px 1px 1px 1px; background: #fff;}
+#acMainPanel #body #dataTable .tdfh-last {float: left; border: 1px solid #666; padding: 2px 5px; border-width: 0px 1px 1px 1px; background: #fff; height: 75;} 
+#acMainPanel #body #dataTable img.thumb {margin:0; padding: 0; border: 0;}
+#acMainPanel #body #dataTable .toolbar {float: left; margin-left: 7px;}
+#acMainPanel #body #dataTable .toolbar a {margin-left: 3px;}
+#acMainPanel #body #dataTable .toolbar a img {border: 0;}
+#acMainPanel #body #dataTable br {clear: both; margin: 0; padding: 0;}
+
+#acMainPanel .toolbar form {}
+#acMainPanel .toolbar form input {margin-left: 5px; padding: 0; font-size: 10px;}
+
+#acMainPanel a.button {float: left; margin: 0 0; padding: 1px 3px; border: 1px solid #666; border-color: #fff #666 #666 #fff; height: 16px; width: 16px; color: #000;}
+#acMainPanel div.current_button {float: left; margin: 0 0; padding: 1px 3px; border: 1px solid #666; border-color: #666 #fff #fff #666; height: 16px; width: 16px; font-weight: bold; color: #000;}
+#acMainPanel a.button:hover {border-color: #666 #fff #fff #666; background: #aaa;}
+
+#acMainPanel #footer {clear: both;}
+
+#acMainPanel .hr {background-color: #666; width: 100%; margin: 5px 0px 5px 0px;}
+
+
+/*    ----------  acEdit:   ---------   */
+
+.acEditPanel { width: 100%; margin: 0px 0px 0px 0px; padding: 30px 50px 40px 0px; font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; text-align: left; background-color: #f5f5f5; border-width: 1px; border-style: solid; border-color: #999999;}
+
+.acText { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;color: #000000; margin: 0px 10px 0px 0px;}
+
+.acInputFieldLabel { font: bold 8pt Verdana; color: #000000; margin: 0px 10px 0px 0px;}
+
+.acTextArea { border: 1px solid #333333; font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; padding: 10px 10px 3px 7px;}
+
+.acInputField { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; padding: 1px 0px 1px 3px; border: 1px solid #333333;}
+
+.acInputFieldTitle { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: bold; color: #000; padding: 1px 0px 1px 3px;border: 1px solid #333;}
+
+.acInputPicCommentary { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: normal; color: #666; padding: 1px 0px 1px 3px;border: 1px solid #333;}
+
+.acInputFieldDate { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: normal; color: #600000; padding: 1px 0px 1px 3px;border: 1px solid #333;}
+
+.acInputFieldSource { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: normal; color: #000060; padding: 1px 0px 1px 3px;border: 1px solid #333;}
+
+.acInputFieldHighlight { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: normal; font-style: italic; color: #000; padding: 1px 0px 1px 3px; border: 1px solid #333; }
+
+.acInputFieldText { font-family:  Verdana, Arial, Helvetica, sans-serif;font-size: 8pt; font-weight: normal; color: #000; padding: 1px 0px 1px 3px;border: 1px solid #333;}
+
+.acButton { margin: 0px 5px 0px 0px; padding: 1px 5px 1px 5px; background-color: #dd8830; border: 1px solid; border-color: #fff #000 #000 #fff;	color: #fff; font-size: 8pt; font-weight: bold;}
+
+
+/* --------------- ew's ---------------- */
+
+#acMainPanel #body form.ew {font: bold 8pt Verdana;}
+#acMainPanel #body form.ew br { clear: both;}
+#acMainPanel #body form.ew img {border: 0; float: left; clear: both;}
+#acMainPanel #body form.ew div.row {padding: 10px 0px 10px 20px; clear: both;}
+#acMainPanel #body form.ew div.row-td {padding: 10px 30px 10px 20px; float: left;}
+#acMainPanel #body form.ew div.row-td .label-second {float: left; width: 50px;}
+#acMainPanel #body form.ew div.label {float: left; width: 100px;}
+#acMainPanel #body form.ew select {float: left; font: normal 8pt Verdana; padding: 0; margin: 0 0 0 20px;}
+#acMainPanel #body form.ew input,
+#acMainPanel #body form.ew textarea {float: left; padding: 0; margin: 0 0 0 20px; font: normal 8pt Tahoma, sans-serif;}
+#acMainPanel #body form.ew .submit {margin-left: 10px; font: normal 8pt Verdana, sans-serif;}
+
+/* demo */
+.demo {font: normal 13pt Times; width: 600px; margin: 20px 0px 0px 100px; line-height: 1.3em;}

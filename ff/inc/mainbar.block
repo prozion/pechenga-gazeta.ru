@@ -1,0 +1,8 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+
+<form action="index.jsp" method="post" class="search">
+	<input type="hidden" name="op" value="search" />
+	<input type="hidden" name="cat" value="articles" />
+	<div>Ключевые слова: </div><input type="text" size="20" />
+	<input type="submit" value="Искать!" />
+</form>

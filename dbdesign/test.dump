@@ -1,0 +1,11 @@
+insert into pna_articles(title, issue) values('1', 10);
+insert into pna_articles(title, issue) values('2', 10);
+insert into pna_articles(title, issue) values('3', 10);
+insert into pna_articles(title, issue) values('4', 20);
+insert into pna_articles(title, issue) values('5', 20);
+insert into pna_articles(title, issue) values('6', 20);
+insert into pna_articles(title, issue) values('7', 20);
+insert into pna_articles(title, issue) values('8', 22);
+insert into pna_articles(title, issue) values('9', 22);
+insert into pna_articles(title, issue) values('10', 22);
+insert into pna_articles(title, issue) values('11', 22);
